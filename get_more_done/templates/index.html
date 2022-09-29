@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block title  %}
     <title> Welcome to - Get More Done App !</title>
@@ -6,6 +7,25 @@
 
 {% block content  %}
     <div class="container">
-      <h1>{{ index_text }}</h1>
+      <div class="row mt-5">
+        <div class="col-lg-4">
+          <img  src="{% static 'images/todo.jpg' %}" alt="Todo" class="rounded-4 shadow-lg" width="360" height="250" >
+        </div>
+        <div class="col-lg-4">
+          <img  src="{% static 'images/doing.jpg' %}" alt="Doing" class="rounded-4 shadow-lg" width="360" height="250" >
+        </div>
+        <div class="col-lg-4">
+          <img  src="{% static 'images/done.jpg' %}" alt="Done" class="rounded-4 shadow-lg" width="360" height="250" >
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-10 offset-md-1">
+          <center><p class="h1 text-primary">Organize your work and life, become focused, organized, and calm with GetMoreDone App Today.</p></center>
+          <center><p class="h3 mt-3 text-primary">Add your tasks. Organize your life. Achieve more every day.</p></center>
+          <center><p class="h5 mt-3 text-primary">Reach that mental clarity you've been longing for.</p></center>
+
+          <center><a href="{% url 'todolist' %}"><button type="button" class="btn btn-primary btn-lg m-3 rounded-4 shadow-lg">Let's Get Started</button></a></center>
+        </div>
+      </div>
     </div>
 {% endblock content %}
