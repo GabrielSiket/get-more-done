@@ -6,6 +6,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),
     path('todolist/', include('get_more_done.urls')),
+    path('account/', include('users_app.urls')),
     path('contact', views.contact, name='contact'),
     path('about', views.about, name='about'),
 ]
