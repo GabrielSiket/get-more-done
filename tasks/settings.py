@@ -1,7 +1,7 @@
-import os
-import environ
 from pathlib import Path
 import dj_database_url
+import os
+import environ
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -15,12 +15,12 @@ environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = env('DJANGO_SECRET_KEY')
+SECRET_KEY = 'django-insecure-57a8*j34$6xf1+z&$j(pmv9e5c18(u8ep-ge+t+o8#^qv8dlot'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = env('DJANGO_DEBUG')
+DEBUG = True
 
-ALLOWED_HOSTS = ['getmoredone.herokuapp.com']
+ALLOWED_HOSTS = ['localhost']
 
 # Application definition
 
@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'tasks.wsgi.application'
 #}
 
 DATABASES = {
-   'default': dj_database_url.parse('postgres://postgres://llcfpumtsukgvt:e8c3dfcfa814a4bc32a5f0f5ac7088a164a5e94d5dcb46997ec0f12917a01401@ec2-52-30-75-37.eu-west-1.compute.amazonaws.com:5432/d3c7p2pe2bhdmb')
+   'default': dj_database_url.parse('postgres://llcfpumtsukgvt:e8c3dfcfa814a4bc32a5f0f5ac7088a164a5e94d5dcb46997ec0f12917a01401@ec2-52-30-75-37.eu-west-1.compute.amazonaws.com:5432/d3c7p2pe2bhdmb')
 }
 
 
