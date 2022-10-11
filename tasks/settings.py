@@ -1,3 +1,4 @@
+import django_heroku
 import os
 import environ
 
@@ -121,3 +122,4 @@ LOGIN_REDIRECT_URL = "todolist"
 LOGIN_URL = "login"
 
 # Heroku local settings
+django_heroku.settings(locals())
