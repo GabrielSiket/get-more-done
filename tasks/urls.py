@@ -1,12 +1,13 @@
 from django.contrib import admin
 from django.urls import path, include
-from get_more_done import views
+from get_more_done import views as todolist_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index, name='index'),
+
+    path('', todolist_views.index, name='index'),
     path('todolist/', include('get_more_done.urls')),
     path('account/', include('users_app.urls')),
-    path('contact', views.contact, name='contact'),
-    path('about', views.about, name='about'),
+    path('contact', todolist_views.contact, name='contact'),
+    path('about-us', todolist_views.about, name='about'),
 ]
