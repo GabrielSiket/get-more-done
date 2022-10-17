@@ -19,7 +19,7 @@ DEBUG = env('DJANGO_DEBUG')
 
 ALLOWED_HOSTS = [env('DJANGO_ALLOWED_HOSTS')]
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-gabrielsike-getmoredone-lb5mtsw4byc.ws-eu70.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ['https://8000-gabrielsike-getmoredone-lb5mtsw4byc.ws-eu71.gitpod.io']
 
 
 # Application definition
