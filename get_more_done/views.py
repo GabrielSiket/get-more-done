@@ -62,7 +62,6 @@ def pending_task(request, task_id):
     task.save()
     return redirect('todolist')
 
-@login_required()
 def index(request):
     context = {
         'index_text': "Welcome to Index Page !",
@@ -73,7 +72,7 @@ def index(request):
 
 def contact(request):
     context = {
-        'contact_text': "Welcome to Contact Page !",
+        'contact_text': "Contact Page - Comming Soon!",
 
     }
     return render(request, 'contact.html', context)
@@ -81,7 +80,7 @@ def contact(request):
 
 def about(request):
     context = {
-        'about_text': "Welcome to About Page !",
+        'about_text': "About Page - Comming Soon !",
 
     }
     return render(request, 'about.html', context)
