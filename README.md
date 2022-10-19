@@ -25,3 +25,35 @@ A deployed link to the website can be found [here](https://getmoredoneapp.heroku
 - [Deployment](#deployment)
 - [Credits](#credits)
 - [Acknowledgements](#acknowledgements)
+
+## UX User Experience
+### User Stories
+
+### As the site creator/admin:
+* I want to have full access and functionality as a superuser
+* I want to be able to create, read, edit and delete all tasks
+* I want to be able to assign tasks to different users so that tasks are well organized.
+
+### As the site user:
+* I want to be able to register an account
+* I want to be able to login/logout an account
+* I want to be able create, view, edit and delete my tasks
+* I want to be able to mark tasks as complete or pending so that my tasks list will be updated showing the relevant value.
+
+## Agile Development Process
+* The MoSCoW method was adopted to approach to prioritizing which project requirements for must have, should have, could have and will not have.
+* I used GitHub for Automated Kanban Project Management. [Click Here](static/images/gmd-stories.png)
+* I used GitHub project board to generate user story templates.
+* I used project templates to speed up the process. 
+
+## Design
+### Wireframes
+ <details>
+  <summary>Click here to view all wireframes both Desktop & mobile:</summary>
+
+  ![](static/images/gmd-home-wrf.png)
+
+  </details>
+
+
+
