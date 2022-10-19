@@ -49,9 +49,15 @@ A deployed link to the website can be found [here](https://getmoredoneapp.heroku
 ## Design
 ### Wireframes
  <details>
-  <summary>Click here to view all wireframes both Desktop & mobile:</summary>
+  <summary>Click here to view all wireframes:</summary>
 
   ![](static/images/gmd-home-wrf.png)
+  ![](static/images/gmd-todo-wrf.png)
+  ![](static/images/gmd-edit-wrf.png)
+  ![](static/images/gmd-login-wfr.png)
+  ![](static/images/gmd-register-wrf.png)
+  ![](static/images/gmd-contact-wrf.png)
+  ![](static/images/gmd-about-wrf.png)
 
   </details>
 
