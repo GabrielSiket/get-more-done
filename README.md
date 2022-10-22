@@ -61,5 +61,24 @@ A deployed link to the website can be found [here](https://getmoredoneapp.heroku
 
   </details>
 
+### Navigation
+
+I created a logic flowchart to help organise the site structure.
+The ERD entity relationship diagram helped visually to confirm user roles and the permissions.
+
+<details>
+  <summary>Click here to view website navigation:</summary>
+
+  ![](static/images/gmd-nav-diagram.png)
+
+  </details>
+
+### Database Schema
+
+
+## Features
+### Existing Features
+
+
 
 
