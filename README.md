@@ -79,6 +79,80 @@ The ERD entity relationship diagram helped visually to confirm user roles and th
 ## Features
 ### Existing Features
 
+### Home Page
+Homepage displays the Logo, Navbar with following options: Home, To-Do List, Contact Us, About Us - on the left, and on the right side - Login and Register.
+There is a H1 heading describing what the website is about so that users understand the websites function and target audience, followed by a H3 and a H5 descriptions about website's functions.
+The main body of the homepage contains 3 images.
+At the buttom of the page, we can find a "Let's Get Started button" which takes the user to the login page.
+
+![Preview](static/images/gmd-home.png)
+
+### Navigation Bar
+When not logged in the Navbar displays links to Home, To-Do List,  Register & Login.
+When a user hovers over navigation links, the buttons are highlighted to show responsiveness when the user interacts with the link element(s). When a user is logged in the Navbar displays links to Home, To-Do List, About Us, Contact Us to the left. On the right-hand side we have the logged in username and a Logout option.
+
+![Preview](static/images/gmd-navbar.png)
+
+### Register Page
+When a user goes the Register page, they are shown a simple form with username and password to sign in.
+
+![Preview](static/images/gmd-register.png)
+
+### Log in
+When a user goes to the Login page, they can enter account details as above.
+
+![Preview](static/images/gmd-login.png)
+
+
+### Log out
+When a user logs out successfully a message is displayed to confirm.
+
+![Preview](static/images/gmd-logout.png)
+
+### Admin - Superuser Access
+![Preview](static/images/gmd-superadmin.png)
+
+### Add New Task
+![Preview](static/images/gmd-newtask.png)
+
+
+### Edit / Delete Article
+![Preview](static/images/gmd-edit.png)
+
+## Future Features
+
+* About Us Page - Add information that informs the user when the website was formed and what it aims to achieve.
+* Contact Us Page - Add a simple form with name, email and body of message via which Users can contact the website.
+
+## Bugs / Errors encountered during development
+* Error related to Django 4, which has recently been fully released. Set variable CSRF_TRUSTED_ORIGINS in the settings.py, which holds a list of all the URLs of sites that are trusted.
+* App wasn’t deploying to heroku. Created a runtime.txt file and updated python version to python-3.9.14.
+* Heroku H10 error. Fixed by adding the correct keys to config vars.
+* I was aware of various pylint and flak8 notifications however none of them are having any functionality implications and were as a result of the template followed from the code institute Django blog project Walkthrough.
+
+### Unfixed Bugs
+No known unfixed bugs present at the time of submission
+
+## Technologies Used
+### Languages Used
+  * [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
+  * [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+  * [JavaScript](https://www.javascript.com/)
+  * [Python](https://www.python.org/)
+
+### Frameworks, Libraries & Programs Used
+* [amiresponsive](http://ami.responsivedesign.is/) to see how responsive the site is on different devices.
+* [Balsamiq](https://balsamiq.com/) was used to create the Wireframes.
+* [Django](https://www.djangoproject.com/) is a free and open-source, Python-based web framework that follows the model–template–views architectural pattern.
+* [Font Awesome](https://fontawesome.com/) was used for icons for aesthetic and UX purposes on the buttons.
+* [Git](https://git-scm.com/) was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+* [GitHub](https://github.com/) GitHub is used to store the projects code after being pushed from Git.
+* [Gitpod](https://www.gitpod.io/) An online IDE linked to the GitHub repository used to write my code.
+* [Google Chrome Dev tools](https://developer.chrome.com/docs/devtools/) for debugging.
+* [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) used for audits to measure the quality of web pages.
+* [Heroku](https://www.heroku.com/) used to deploy this app, a cloud platform as a service supporting several programming languages.
+* [Pexels](https://www.pexels.com/) Images for this project were sourced from Pexels.
+
 
 
 
