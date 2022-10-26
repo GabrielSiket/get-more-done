@@ -72,7 +72,7 @@ def index(request):
 
 def contact(request):
     context = {
-        'contact_text': "Contact Page - Comming Soon!",
+        'contact_text': "Contact Page - Coming Soon!",
 
     }
     return render(request, 'contact.html', context)
@@ -80,7 +80,7 @@ def contact(request):
 
 def about(request):
     context = {
-        'about_text': "About Page - Comming Soon !",
+        'about_text': "About Page - Coming Soon !",
 
     }
     return render(request, 'about.html', context)

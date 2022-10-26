@@ -167,17 +167,17 @@ No known unfixed bugs present at the time of submission
 
 ### The W3C Markup Validator
   <details>
-  <summary>Checked using W3C Markup Validator ensuring there were no errors or warnings present. Click here to see the W3C Markup Validator result</summary>
+  <summary>Click here to see the W3C Markup Validator result</summary>
 
-  ![](docs/w3c_html_validator_result.PNG)
+  ![](static/images/gmd-w3c.png)
 
   </details>
 
 ### W3C CSS Validator
   <details>
-  <summary>Checked using W3C CSS Validator ensuring there were no errors or warnings present. Click here to see the W3C CSS Validator result</summary>
+  <summary>Click here to see the W3C CSS Validator result</summary>
 
-  ![](docs/w3c_css_validator_result.PNG)
+  ![](static/images/gmd-w3c-css.png)
 
   </details>
 
@@ -186,14 +186,6 @@ No known unfixed bugs present at the time of submission
   <summary>Checked Python code is formatted according to the PEP 8 standards</summary>
 
   ![](docs/pep8online_result.PNG)
-
-  </details>
-
-  ### JSHint 
-  <details>
-  <summary>Checked JavaScript source code complies with coding rules</summary>
-
-  ![](docs/jshint_result.PNG)
 
   </details>
 
