@@ -116,7 +116,7 @@ When a user logs out successfully a message is displayed to confirm.
 ![Preview](static/images/gmd-newtask.png)
 
 
-### Edit / Delete Article
+### Edit / Delete Task
 ![Preview](static/images/gmd-edit.png)
 
 ## Future Features
@@ -139,6 +139,8 @@ No known unfixed bugs present at the time of submission
   * [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
   * [JavaScript](https://www.javascript.com/)
   * [Python](https://www.python.org/)
+  * [Django] (https://www.djangoproject.com/)
+  * [SQL-Postgres] (https://www.postgresql.org/)
 
 ### Frameworks, Libraries & Programs Used
 * [amiresponsive](http://ami.responsivedesign.is/) to see how responsive the site is on different devices.
@@ -153,6 +155,32 @@ No known unfixed bugs present at the time of submission
 * [Heroku](https://www.heroku.com/) used to deploy this app, a cloud platform as a service supporting several programming languages.
 * [Pexels](https://www.pexels.com/) Images for this project were sourced from Pexels.
 
+## Deployment
+* This project was developed using a GitPod workspace. The code was committed to Git and pushed to GitHub using the terminal.
 
+* Log in to [Heroku](https://id.heroku.com/login) or create an account
+* On the main page click New and Create New App
+* Note: new app name must be unique
+* Next select your region
+* Click Create App button
+* Click in resources and select Heroku Postgres database
+* Click Reveal Config Vars and add new config "SECRET_KEY"
+* Click Reveal Config Vars and add new config "DISABLE_COLLECTSTATIC = 1"
+* The next page is the project’s Deploy Tab. Click on the Settings Tab and scroll down to Config Vars
+* Next, go to Buildpack section click Add Buildpack select python and Save Changes
+* Scroll to the top of the page and choose the Deploy tab
+* Select Github as the deployment method
+* Confirm you want to connect to GitHub
+* Search for the repository name and click the connect button
+* Scroll to the bottom of the deploy page and select the preferred deployment type
+* Click either Enable Automatic Deploys for automatic deployment when you push updates to Github
+
+## Credits and Acknowledgements
+
+* Code Institute [Code Instite](https://learn.codeinstitute.net/dashboard)
+* Stack Overflow [Stack Overflow](https://stackoverflow.com)
+* To create this website, I relied on material covered in the Full Stack Development course by Code Institute.
+* Martina Terlevic for advise and feedback.
+* Udemy [Udemy](https://www.udemy.com/)
 
 
