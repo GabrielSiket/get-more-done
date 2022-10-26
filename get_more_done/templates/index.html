@@ -18,13 +18,13 @@
           <img  src="{% static 'images/gmd-done.webp' %}" alt="Done" class="rounded-4 shadow-lg" width="360" height="239" >
         </div>
       </div>
-      <div class="row mt-5">
+      <div class="row mt-5 text-center">
         <div class="col-md-10 offset-md-1">
-          <center><p class="h1 text-primary">Organize your work and life, become focused, organized, and calm with GetMoreDone App Today.</p></center>
-          <center><p class="h3 mt-3 text-primary">Add your tasks. Organize your life. Achieve more every day.</p></center>
-          <center><p class="h5 mt-3 text-primary">Reach that mental clarity you've been longing for.</p></center>
+          <p class="h1 text-primary">Organize your work and life, become focused, organized, and calm with GetMoreDone App Today.</p>
+          <p class="h3 mt-3 text-primary">Add your tasks. Organize your life. Achieve more every day.</p>
+          <p class="h5 mt-3 text-primary">Reach that mental clarity you've been longing for.</p>
 
-          <center><a href="{% url 'todolist' %}"><button type="button" class="btn btn-primary btn-lg m-3 rounded-4 shadow-lg">Let's Get Started</button></a></center>
+          <a class="btn btn-primary btn-lg mt-3 shadow" href={% url 'todolist' %}>Let's Get Started</a>
         </div>
       </div>
     </div>
