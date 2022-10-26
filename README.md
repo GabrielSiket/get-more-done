@@ -155,6 +155,49 @@ No known unfixed bugs present at the time of submission
 * [Heroku](https://www.heroku.com/) used to deploy this app, a cloud platform as a service supporting several programming languages.
 * [Pexels](https://www.pexels.com/) Images for this project were sourced from Pexels.
 
+## Testing
+
+### Lighthouse Report
+ <details>
+  <summary>Click here to see the Lighthouse Report</summary>
+
+  ![](static/images/gmd-lighthouse.png)
+
+  </details>
+
+### The W3C Markup Validator
+  <details>
+  <summary>Checked using W3C Markup Validator ensuring there were no errors or warnings present. Click here to see the W3C Markup Validator result</summary>
+
+  ![](docs/w3c_html_validator_result.PNG)
+
+  </details>
+
+### W3C CSS Validator
+  <details>
+  <summary>Checked using W3C CSS Validator ensuring there were no errors or warnings present. Click here to see the W3C CSS Validator result</summary>
+
+  ![](docs/w3c_css_validator_result.PNG)
+
+  </details>
+
+  ### PEP8 online 
+  <details>
+  <summary>Checked Python code is formatted according to the PEP 8 standards</summary>
+
+  ![](docs/pep8online_result.PNG)
+
+  </details>
+
+  ### JSHint 
+  <details>
+  <summary>Checked JavaScript source code complies with coding rules</summary>
+
+  ![](docs/jshint_result.PNG)
+
+  </details>
+
+
 ## Deployment
 * This project was developed using a GitPod workspace. The code was committed to Git and pushed to GitHub using the terminal.
 
@@ -177,10 +220,10 @@ No known unfixed bugs present at the time of submission
 
 ## Credits and Acknowledgements
 
-* Code Institute [Code Instite](https://learn.codeinstitute.net/dashboard)
-* Stack Overflow [Stack Overflow](https://stackoverflow.com)
+* [Code Instite](https://learn.codeinstitute.net/dashboard)
+* [Stack Overflow](https://stackoverflow.com)
 * To create this website, I relied on material covered in the Full Stack Development course by Code Institute.
 * Martina Terlevic for advise and feedback.
-* Udemy [Udemy](https://www.udemy.com/)
+* Shubham Sarda - [Udemy](https://www.udemy.com/)
 
 
