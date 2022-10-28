@@ -181,11 +181,11 @@ No known unfixed bugs present at the time of submission
 
   </details>
 
-  ### PEP8 online 
+  ### Python 
   <details>
   <summary>Checked Python code is formatted according to the PEP 8 standards</summary>
 
-  ![](docs/pep8online_result.PNG)
+  ![](static/images/gmd-py-check.png)
 
   </details>
 
